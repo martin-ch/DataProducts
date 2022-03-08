@@ -1,0 +1,14 @@
+name: mtcars
+title:
+username:
+account: tretro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5799031
+bundleId: 5657042
+url: https://tretro.shinyapps.io/mtcars/
+when: 1646755071.29055
+lastSyncTime: 1646755071.29055
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Deploy.R|PitchPresentation-figure/unnamed-chunk-2-1.png|PitchPresentation.md|PitchPresentation.Rpres

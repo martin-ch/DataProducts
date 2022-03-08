@@ -1,0 +1,63 @@
+Pitch Presentation - linear regression with mtcars dataset
+========================================================
+author: Martin Bühler
+date: 8.3.2022
+autosize: true
+
+Agenda
+========================================================
+
+1 Idea  
+2 Usage of interface  
+3 Reference
+
+
+1 Idea
+========================================================
+<font size="5"> 
+
+For exploratory data analysis of a dataset it's convenient to
+look at the relation of two features and their linear regression.
+The presented solution allows to select a dependent and independent variable
+of the mtcars dataset.  
+A box plot is displayed if the independent variable is a factor variable and
+a scatter plot is displayed if the independent variable isn't a factor variable.  
+
+This r-code output shows the structure of the mtcars dataset.
+```{r}
+str(mtcars)
+```
+</font>  
+
+2 Usage of interface
+========================================================
+<font size="5"> 
+1/ Dependent Variable: Select the dependent variable of the
+mtcars dataset. This variable will be displayed on the y-axis of the resulting
+plot and is always a discrete variable (not a factor variable)  
+2/ Independent Variable: Select the independent variable of the
+mtcars dataset. This variable will be displayed on the x-axis of the resulting
+plot and can be either a discrete variable or a factor variable  
+3/ The documentation can be selected by clicking on the tab "Documentation" or
+adding "/?tab=Documentation" to the url  
+4/ The tab "Plot output" shows the plot as well as the coefficients of the linear
+model comprised of the independent and dependent variable  
+</font> 
+![Main interface](main.png)
+
+
+
+
+3 Reference
+========================================================
+
+
+Link to this presentation: https://rpubs.com/tretro/DataPresentation  
+  
+Application on Shinyapps.io: https://tretro.shinyapps.io/mtcars  
+  
+Documentation of application: https://tretro.shinyapps.io/mtcars?tab=Documentation  
+  
+Link to Git repository: 
+
+

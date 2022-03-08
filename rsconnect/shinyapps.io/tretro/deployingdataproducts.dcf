@@ -1,0 +1,11 @@
+name: deployingdataproducts
+title:
+username:
+account: tretro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5798975
+bundleId: 5653171
+url: https://tretro.shinyapps.io/deployingdataproducts/
+when: 1646678484.66916
+lastSyncTime: 1646678484.66916
